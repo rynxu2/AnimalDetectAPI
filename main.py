@@ -1,6 +1,6 @@
 import flask
 
-app = flask.Flask()
+app = flask.Flask(__name__)
 
 @app.get('/')
 def home():
