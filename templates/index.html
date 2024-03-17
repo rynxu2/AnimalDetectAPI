@@ -70,7 +70,7 @@
         async function hideOverlayOnModelLoad() {
             try {
                 // Tải mô hình
-                model = await tf.loadLayersModel('http://127.0.0.1:10000/static/model.json');
+                model = await tf.loadLayersModel('http://127.0.0.1:5000/static/model.json');
                 overlay.style.display = 'none';
                 console.log('Mô hình đã tải hoàn tất:', model);
             } catch (error) {
