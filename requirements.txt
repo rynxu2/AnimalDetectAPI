@@ -1,6 +1,3 @@
 gunicorn
 uvicorn
-fastapi
-tensorflow
-keras
-pydantic
+flask
