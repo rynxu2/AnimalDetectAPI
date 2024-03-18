@@ -51,7 +51,7 @@ var video = document.getElementById('videoElement');
                     img_frame.appendChild(videoElement);
                     videoStream = stream;
                 });
-                openCamButton.textContent = "Tắt Camera";
+                openCamButton.textContent = "Close Camera";
             }
         }
         function capture() {
@@ -73,7 +73,7 @@ var video = document.getElementById('videoElement');
             if (videoElement) {
                 videoElement.remove();
             }
-            openCamButton.textContent = "Mở Camera";
+            openCamButton.textContent = "Open Camera";
         }
 
         captureButton.addEventListener('click', function() {
